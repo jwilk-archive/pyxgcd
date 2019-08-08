@@ -1,3 +1,8 @@
+# encoding=UTF-8
+
+# Copyright © 2008-2019 Jakub Wilk <jwilk@jwilk.net>
+# SPDX-License-Identifier: MIT
+
 def xgcd(a, b):
     '''
     >>> xgcd(352, 168)
