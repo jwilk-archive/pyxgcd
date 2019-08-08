@@ -19,4 +19,4 @@ def xgcd(a, b):
         p, q = q, [x - p[0] // q[0] * y for x, y in zip(p, q)]
     return tuple(p)
 
-# vim:ts=4 sw=4 et
+# vim:ts=4 sts=4 sw=4 et
